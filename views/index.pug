@@ -1,0 +1,14 @@
+extends layoutSansNav
+block content
+    .container
+        form.form-signin
+            h1.h3.mb-3.font-weight-normal Connectez-vous !
+            br
+            label(for="inputEmail" class="sr-only") E-mail
+            input(type="email" id="inputEmail" class="form-control" placeholder="E-mail")
+            label(for="inputPassword" class="sr-only") Mot de passe
+            input(type="password" id="inputPassword" class="form-control" placeholder="Password")
+            br
+            button.btn.btn-lg.btn-primary.btn-block(type="submit") Se Connecter
+            br
+            p.mt-5.mb-3.text-muted &copy; 2018
